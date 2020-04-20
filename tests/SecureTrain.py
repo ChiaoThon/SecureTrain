@@ -8,7 +8,6 @@ import os
 import numpy as np
 from random import *
 from mlxtend.data import loadlocal_mnist
-from sklearn import preprocessing
 import time
 
 
@@ -21,9 +20,9 @@ def loadMnist():
         images_path=os.getcwd()+'/t10k-images-idx3-ubyte',
         labels_path=os.getcwd()+'/t10k-labels-idx1-ubyte');
     #normalize the data
-    data_train /= 255.;
-    data_test /= 255.;
-    return data_train, data_test, label_train, label_test
+    data_train_norm = data_train.astype(np.float)/255.;
+    data_test_norm = data_test.astype(np.float)/255.;
+    return data_train_norm, data_test_norm, label_train, label_test
 
 #Helper function: Get the relu result.
 def ReLu(input):
