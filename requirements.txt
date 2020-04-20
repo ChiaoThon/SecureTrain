@@ -1,3 +1,5 @@
 pytest
 pybind11
 numpy
+mlxtend
+keras
