@@ -59,6 +59,6 @@ Errors: If errors happen during the above process, first refer to the [**python 
 
 
 ## About
-This project is still testing and developing now, if any problems(bugs), [Issue](https://github.com/ChiaoThon/SecureTrain/issues) please.
+This project is still testing now, if any problems(bugs), [Issue](https://github.com/ChiaoThon/SecureTrain/issues) please.
 
 
