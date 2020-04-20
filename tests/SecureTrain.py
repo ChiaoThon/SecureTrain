@@ -21,8 +21,8 @@ def loadMnist():
         images_path=os.getcwd()+'/t10k-images-idx3-ubyte',
         labels_path=os.getcwd()+'/t10k-labels-idx1-ubyte');
     #normalize the data
-    data_train = preprocessing.normalize(data_train,norm='l2');
-    data_test = preprocessing.normalize(data_test,norm='l2');
+    data_train /= 255.;
+    data_test /= 255.;
     return data_train, data_test, label_train, label_test
 
 #Helper function: Get the relu result.
