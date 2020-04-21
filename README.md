@@ -40,17 +40,17 @@ Errors: If errors happen during the above process, first refer to the [**python 
 
 run
 
-'''shell
+```shell
 #run with single core
 taskset -c 0 python3 [example_name].py
-'''
+```
  
 or
 
-'''shell
+```shell
 #run with cores available
 python3 [example_name].py
-'''
+```
 
 * The `.so` file must be in the same folder. In another words, you should put the `.so` file in main path to the `tests` file. 
 
