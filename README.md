@@ -61,11 +61,11 @@ python3 [example_name].py
 | ---------------- | ------------------------------------------------------------ |
 | SecureTrain.py   | The overall inference performance of SecureTrain|
 | SecureTrain_Inf_accuracy.py  | Test the inference accuracy of SecureTrain |
+| SecureTrain_packedInfer.py  | Pack multiple inputs to enable parallel inference |
 
 
 
 ## Future
-* make inference-optimization version available
 * make training part available
 * make real-interaction part available
 
