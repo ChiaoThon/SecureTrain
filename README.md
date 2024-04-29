@@ -66,7 +66,7 @@ python3 [example_name].py
 
 
 ## Future
-* generate share within lowest mudulus
+* generate share within lowest modulus
 * make training part available
 * make real-interaction part available
 
